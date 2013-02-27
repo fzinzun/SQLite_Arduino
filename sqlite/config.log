@@ -518,8 +518,8 @@ configure:19483: $? = 0
 configure:19483: result: yes
 configure:19483: checking for fullfsync
 configure:19483: gcc -o conftest.exe -g -O2   conftest.c  >&5
-/tmp/cczJlovL.o: In function `main':
-/cygdrive/c/sqlite/sqlite/conftest.c:58: undefined reference to `_fullfsync'
+/tmp/cc4Ixp2H.o: In function `main':
+/cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:58: undefined reference to `_fullfsync'
 collect2: ld returned 1 exit status
 configure:19483: $? = 1
 configure: failed program was:
@@ -683,8 +683,8 @@ configure: failed program was:
 configure:19576: result: no
 configure:19602: checking for library containing tgetent
 configure:19633: gcc -o conftest.exe -g -O2   conftest.c  >&5
-/tmp/ccsWBdO5.o: In function `main':
-/cygdrive/c/sqlite/sqlite/conftest.c:39: undefined reference to `_tgetent'
+/tmp/ccN5LHus.o: In function `main':
+/cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:39: undefined reference to `_tgetent'
 collect2: ld returned 1 exit status
 configure:19633: $? = 1
 configure: failed program was:
@@ -735,8 +735,8 @@ configure:19633: $? = 0
 configure:19650: result: -lcurses
 configure:19658: checking for library containing readline
 configure:19689: gcc -o conftest.exe -g -O2   conftest.c -lcurses  >&5
-/tmp/cc6A8A6Z.o: In function `main':
-/cygdrive/c/sqlite/sqlite/conftest.c:39: undefined reference to `_readline'
+/tmp/cc2MivF4.o: In function `main':
+/cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:39: undefined reference to `_readline'
 collect2: ld returned 1 exit status
 configure:19689: $? = 1
 configure: failed program was:
@@ -942,15 +942,15 @@ lt_lt_cv_sys_global_symbol_to_cdecl='"sed -n -e '\''s/^. .* \\(.*\\)\$/extern in
 ## Output variables. ##
 ## ----------------- ##
 
-ACLOCAL='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run aclocal-1.9'
+ACLOCAL='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run aclocal-1.9'
 AMDEPBACKSLASH='\'
 AMDEP_FALSE='#'
 AMDEP_TRUE=''
-AMTAR='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run tar'
+AMTAR='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run tar'
 AR='ar'
-AUTOCONF='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run autoconf'
-AUTOHEADER='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run autoheader'
-AUTOMAKE='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run automake-1.9'
+AUTOCONF='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run autoconf'
+AUTOHEADER='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run autoheader'
+AUTOMAKE='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run automake-1.9'
 AWK='gawk'
 BUILD_CFLAGS=''
 CC='gcc'
@@ -985,7 +985,7 @@ LIBS=''
 LIBTOOL='$(SHELL) $(top_builddir)/libtool'
 LN_S='ln -s'
 LTLIBOBJS=''
-MAKEINFO='${SHELL} /cygdrive/c/sqlite/sqlite/missing --run makeinfo'
+MAKEINFO='${SHELL} /cygdrive/c/sqlite/SQLite_Arduino/sqlite/missing --run makeinfo'
 MKDIR_P='/usr/bin/mkdir -p'
 OBJEXT='o'
 PACKAGE='sqlite'
@@ -1034,7 +1034,7 @@ host_vendor='pc'
 htmldir='${docdir}'
 includedir='${prefix}/include'
 infodir='${datarootdir}/info'
-install_sh='/cygdrive/c/sqlite/sqlite/install-sh'
+install_sh='/cygdrive/c/sqlite/SQLite_Arduino/sqlite/install-sh'
 libdir='${exec_prefix}/lib'
 libexecdir='${exec_prefix}/libexec'
 localedir='${datarootdir}/locale'
