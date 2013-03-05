@@ -518,7 +518,7 @@ configure:19483: $? = 0
 configure:19483: result: yes
 configure:19483: checking for fullfsync
 configure:19483: gcc -o conftest.exe -g -O2   conftest.c  >&5
-/tmp/cc4Ixp2H.o: In function `main':
+/tmp/ccaPiCYK.o: In function `main':
 /cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:58: undefined reference to `_fullfsync'
 collect2: ld returned 1 exit status
 configure:19483: $? = 1
@@ -683,7 +683,7 @@ configure: failed program was:
 configure:19576: result: no
 configure:19602: checking for library containing tgetent
 configure:19633: gcc -o conftest.exe -g -O2   conftest.c  >&5
-/tmp/ccN5LHus.o: In function `main':
+/tmp/ccKIUAR4.o: In function `main':
 /cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:39: undefined reference to `_tgetent'
 collect2: ld returned 1 exit status
 configure:19633: $? = 1
@@ -735,8 +735,9 @@ configure:19633: $? = 0
 configure:19650: result: -lcurses
 configure:19658: checking for library containing readline
 configure:19689: gcc -o conftest.exe -g -O2   conftest.c -lcurses  >&5
-/tmp/cc2MivF4.o: In function `main':
-/cygdrive/c/sqlite/SQLite_Arduino/sqlite/conftest.c:39: undefined reference to `_readline'
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/../../../../i686-pc-cygwin/bin/ld: reopening conftest.exe: Device or resource busy
+
+/usr/lib/gcc/i686-pc-cygwin/4.5.3/../../../../i686-pc-cygwin/bin/ld: final link failed: Device or resource busy
 collect2: ld returned 1 exit status
 configure:19689: $? = 1
 configure: failed program was:
